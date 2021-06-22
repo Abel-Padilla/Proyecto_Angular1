@@ -1,0 +1,28 @@
+<div class="container mt-5 mx-auto">
+    <div class="row">
+        <a  class="btn mx-auto btn-info">Hacer una pregunta</a>
+    </div>
+    <p></p>
+    <div class="row">
+        <div class="card">
+            <div class="header mx-auto mt-3">
+                <h4>Preguntas frecuentes</h4>
+            </div>
+            <hr>
+            <div class="body">
+                <table class="table table-light table-hover">
+                    <tbody>
+                        <tr *ngFor="let questions of     
+                        questions">
+                        <td>
+                            {{questions}}
+
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+    </div>
+    
+</div>
